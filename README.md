@@ -9,5 +9,7 @@ Introduction into kmer analysis
     2.2. [Evaluate genome assemblies](asm/asm.md)
 
     2.3. [Genome size estimation](gsize/gsize.md)
-    
+
     2.4. [Difficult Examples](examples/examples.md)
+
+3. [Further reading](literature/lit.md) 
