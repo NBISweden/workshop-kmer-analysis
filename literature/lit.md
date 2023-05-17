@@ -4,3 +4,4 @@
 * [KAT_K-mer_Analysis.pdf](KAT_K-mer_Analysis.pdf)
 * [Analyzing_Kmer_Frequencies.pdf](Analyzing_Kmer_Frequencies.pdf)
 * [KAT introduction](https://kat.readthedocs.io/en/latest/walkthrough.html)
+* [ModEst: Accurate estimation of genome size from next generation sequencing data] (https://doi.org/10.1111/1755-0998.13570)
