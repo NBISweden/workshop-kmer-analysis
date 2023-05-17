@@ -77,36 +77,142 @@ Or should we look into a bit more what is going on and see if we can arrive at t
 The plot should look something like this:
 [TEST-1 histogram](./img/TEST-1.hist.png)
 
-
-
-First we need to disregard the kmers that are likely to be sequencing errors etc.
-In this first example it is clear that what is the supposed to be erroneous kmers are everything below four or less on the x-axis.
+For the actual genome size estimation we need to filter a bit first.
+First we need to disregard the kmers that are likely to be sequencing errors etc.  
+In this first example it looks like what is supposed to be erroneous k-mers are everything below four or less on the x-axis.
 
 Then we need to look at the region that corresponds to the single copy region.
 
-Directly inspecting the plot we see that the peak is at 14.
+Directly inspecting the plot we see that the peak is around 15. And the single copy region seem to be the region up to 25 or so.
 
+The beginning of the underlying histogram file looks like this:
+```
+# Title:27-mer spectra for: TEST-1.fastq
+# XLabel:27-mer frequency
+# YLabel:# distinct 27-mers
+# Kmer value:27
+# Input 1:TEST-1.fastq
+###
+1 56383285
+2 2766716
+3 1417214
+4 1088076
+5 1013233
+6 1169047
+7 1555026
+8 2164305
+9 2988731
+10 3984107
+11 5084578
+12 6160776
+13 7063466
+14 7692803
+15 7965507
+16 7820072
+17 7306554
+18 6522596
+19 5577539
+20 4561014
+21 3584189
+22 2716446
+23 1983778
+24 1403037
+25 975588
+26 667519
+27 458548
+28 320761
+29 234493
+```
 
 ### Step 3: Calculate the size
-Based on this we can estimate the genome size:
+Let's see if we can do our own estimation.
 
+```r
+(test1_kmers) <- read.table("TEST-1.hist", skip = 6)
+head(test1_kmers)
 ```
-sum(as.numeric(dataframe[2:9325,1]*dataframe[2:9325,2]))/12 # (12 in this case)
+
+Plot the first 100 datapoints:
+```r
+plot(test1_kmers[1:100,], type="l")
 ```
 
+OK, looks good but we are not interested in the junk so:
+```r
+plot(test1_kmers[5:100,], type="l")
+points(test1_kmers[5:100,])
+```
 
-### How repetitive is the genome or rather how many single copy regions do we have?
-Single copy regions
-sum(as.numeric(dataframe19[2:28,1]*dataframe19[2:28,2]))/12
+There is a total of 10001 datapoints in our histogram file.
+So we can calculate the total number of k-mers like this:
+```r
+sum(as.numeric(test1_kmers[5:10001,1]*test1_kmers[5:10001,2]))
+```
+Total number: 1595108148
 
 
-  
+Since we know the peak position (14) we can calculate the genome size like this:
 
-OK now we have an idea how this works.
+```r
+sum(as.numeric(test1_kmers[5:10001,1]*test1_kmers[5:10001,2]))/14 
+```
+This would give us a genome size of: 113936296
+
+### What is the single copy region of the genome?
+Single copy regions by eyeballing, frestyling, "killgissning" based on the previous graph:
+
+```r
+sum(as.numeric(test1_kmers[5:25,1]*test1_kmers[5:25,2]))/14
+```
+Single copy part: 97038455 (close to what KAT reports)
+
+So basically ≈ XX% are in the single copy fraction in this case.
+
+OK, now we have an idea how this works.
+
+### Step 4:
+
+Lets do the same for an independent dataset:
+```
+kat hist -o TEST-2.hist -t 8 -m 27 -p png TEST-2.fastq
+```
+
+```r
+(test2_kmers) <- read.table("TEST-2.hist", skip = 6)
+head(test2_kmers)
+```
+
+Plot the first 100 datapoints:
+```r
+plot(test2_kmers[1:100,], type="l")
+```
+
+OK, looks good but we are not interested in the junk so:
+```r
+plot(test2_kmers[5:100,], type="l")
+points(test2_kmers[5:100,])
+```
+
+There is a total of 10001 datapoints in our histogram file.
+So we can calculate the total number of k-mers like this:
+```r
+sum(as.numeric(test2_kmers[5:10001,1]*test2_kmers[5:10001,2]))
+```
+Total number: 1595108148
+
+
+Since we know the peak position (14) we can calculate the genome size like this:
+
+```r
+sum(as.numeric(test2_kmers[5:10001,1]*test2_kmers[5:10001,2]))/14 
+```
+This would give us a genome size of: 113936296
+
+### Step 5
 What about using a few different kmer sizes, how does that affect the result?
 
-
+### Step 6
 What about different levels of heterozygosity?
 
-
+### Step 7
 What about amount of data used for estimation?
