@@ -208,7 +208,7 @@ sum(as.numeric(test2_kmers[5:10001,1]*test2_kmers[5:10001,2]))/14
 ```
 This would give us a genome size of: 114126649 
 
-Looks like both dadtasets are giving us a similar estimate.
+Looks like both datasets are giving us a similar estimate.
 
 ### Step 5
 What about using a few different kmer sizes, how does that affect the result?
