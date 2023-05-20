@@ -406,4 +406,27 @@ Estimated heterozygous rate: 0.54%
 
 ### Step 7
 What about amount of data used for estimation?
+There  are two downsampled datsets "80_percent.hist and 70_percent.hist".
+For the 70% set we are no longer able to get a reliable estimate:
+
+```
+Analysing peaks
+---------------
+
+Analysing distributions for: 70_percent.hist ... done.  Time taken:  0.0s
+
+K-mer frequency spectra statistics
+----------------------------------
+K-value used: 27
+Peaks in analysis: 0
+Global minima @ Frequency=2x (1851944)
+Global maxima @ Frequency=9x (9780359)
+Overall mean k-mer frequency: 0x
+
+No peaks detected
+
+Calculating genome statistics
+-----------------------------
+No peaks detected, so no genome stats to report
+```
 
