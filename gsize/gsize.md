@@ -212,7 +212,7 @@ Looks like both datasets are giving us a similar estimate.
 ### Step 5
 What about using a few different kmer sizes, how does that affect the result?
 
-The files:
+The files:  
 TEST-1_k17.hist  
 TEST-1_k21.hist  
 TEST-1_k25.hist  
