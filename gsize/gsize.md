@@ -128,7 +128,7 @@ The beginning of the underlying histogram file looks like this:
 Let's see if we can do our own estimation.
 
 ```r
-(test1_kmers) <- read.table("TEST-1.hist", skip = 6)
+test1_kmers <- read.table("TEST-1.hist", skip = 6)
 head(test1_kmers)
 ```
 
@@ -166,19 +166,19 @@ sum(as.numeric(test1_kmers[5:25,1]*test1_kmers[5:25,2]))/14
 ```
 Single copy part: 97038455 (close to what KAT reports)
 
-So basically ≈ XX% are in the single copy fraction in this case.
+So basically ≈ 85% are in the single copy fraction in this case.
 
 OK, now we have an idea how this works.
 
 ### Step 4:
 
-Lets do the same for an independent dataset:
+Let's do the same for an independent dataset:
 ```
 kat hist -o TEST-2.hist -t 8 -m 27 -p png TEST-2.fastq
 ```
 
 ```r
-(test2_kmers) <- read.table("TEST-2.hist", skip = 6)
+test2_kmers <- read.table("TEST-2.hist", skip = 6)
 head(test2_kmers)
 ```
 
@@ -193,12 +193,12 @@ plot(test2_kmers[5:100,], type="l")
 points(test2_kmers[5:100,])
 ```
 
-There is a total of 10001 datapoints in our histogram file.
-So we can calculate the total number of k-mers like this:
+There is a total of 10001 datapoints in this file as well.
+So we calculate just as before:
 ```r
 sum(as.numeric(test2_kmers[5:10001,1]*test2_kmers[5:10001,2]))
 ```
-Total number: 1595108148
+Total number: 1597773086
 
 
 Since we know the peak position (14) we can calculate the genome size like this:
@@ -206,7 +206,9 @@ Since we know the peak position (14) we can calculate the genome size like this:
 ```r
 sum(as.numeric(test2_kmers[5:10001,1]*test2_kmers[5:10001,2]))/14 
 ```
-This would give us a genome size of: 113936296
+This would give us a genome size of: 114126649 
+
+Looks like both dadtasets are giving us a similar estimate.
 
 ### Step 5
 What about using a few different kmer sizes, how does that affect the result?
