@@ -22,7 +22,7 @@ The whole idea is based on being able to map k-mers uniquely without using a k-m
 So that probably means that we need to try some different values of k before settling on something useful.
 
 ### Step 1: count k-mers and generate a histogram of the k-mer occurence
-There are many tools to kount kmers. We will use KAT today (which use a modified version of Jellyfish internally).
+There are many tools to count kmers. We will use KAT today (which use a modified version of Jellyfish internally).
 
 Can be installed with conda.
 ```
@@ -200,8 +200,7 @@ sum(as.numeric(test2_kmers[5:10001,1]*test2_kmers[5:10001,2]))
 ```
 Total number: 1597773086
 
-
-Since we know the peak position (14) we can calculate the genome size like this:
+And calculate the genome size:
 
 ```r
 sum(as.numeric(test2_kmers[5:10001,1]*test2_kmers[5:10001,2]))/14 
