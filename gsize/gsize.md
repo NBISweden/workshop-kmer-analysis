@@ -333,9 +333,77 @@ Estimated genome size: 97.98 Mbp
 ```
 
 ### Step 6
-What about a contamination?
+What about contamination?
+I have artificially generated a contaminated dataset by adding about 10% reads from a different species.
+But this could also be mitochondrial or chloroplast reads etc. 
 
+Lets see what happens for two different values of k:
 
+```
+Analysing peaks
+---------------
+
+Analysing distributions for: Contaminated_set_k27.hist ... done.  Time taken:  138.3s
+
+K-mer frequency spectra statistics
+----------------------------------
+K-value used: 27
+Peaks in analysis: 5
+Global minima @ Frequency=3x (2235591)
+Global maxima @ Frequency=11x (9128739)
+Overall mean k-mer frequency: 11x
+
+  Index    Left    Mean    Right    StdDev      Max    Volume  Description
+-------  ------  ------  -------  --------  -------  --------  -------------
+      1    1.46    5        8.54      1.77   422316   1871092  1/2X
+      2    3.2    11.06    18.92      3.93  8976869  88275984  1X
+      3    6.88   20       33.12      6.56   296084   4864645  2X
+      4   11.16   44       76.83     16.42     4027    165184  4X
+      5   12.29   55       97.7      21.35     7160    381474  5X
+
+Calculating genome statistics
+-----------------------------
+Assuming that homozygous peak is the largest in the spectra with frequency of: 11x
+Homozygous peak index: 2
+CAUTION: the following estimates are based on having a clean spectra and having identified the correct homozygous peak!
+Estimated genome size: 100.96 Mbp
+Estimated heterozygous rate: 0.07%
+```
+
+```
+Analysing peaks
+---------------
+
+Analysing distributions for: Contaminated_set_k17.hist ... WARNING: problem optimising peaks. It is likely that the spectra is too complex to analyse properly.  Output for this spectra may not be valid.
+Optimal parameters not found: The maximum number of function evaluations is exceeded.
+done.  Time taken:  360.7s
+
+K-mer frequency spectra statistics
+----------------------------------
+K-value used: 17
+Peaks in analysis: 6
+Global minima @ Frequency=4x (1607024)
+Global maxima @ Frequency=12x (7157091)
+Overall mean k-mer frequency: 15x
+
+  Index    Left    Mean    Right    StdDev      Max    Volume  Description
+-------  ------  ------  -------  --------  -------  --------  -------------
+      1    2.1      7      11.9       2.45  2355857  14450059  1/2X
+      2    3.48    12.3    21.11      4.41  7157088  78923176  1X
+      3    1       23      45        11      563011  15270919  2X
+      4    1       35      69        17      148451   6209700  3X
+      5    1       47      93        23       53643   3032574  4X
+      6    1       59     117        29       26531   1889916  5X
+
+Calculating genome statistics
+-----------------------------
+Assuming that homozygous peak is the largest in the spectra with frequency of: 12x
+Homozygous peak index: 2
+CAUTION: the following estimates are based on having a clean spectra and having identified the correct homozygous peak!
+Estimated genome size: 156.90 Mbp
+Estimated heterozygous rate: 0.54%
+```
 
 ### Step 7
 What about amount of data used for estimation?
+
