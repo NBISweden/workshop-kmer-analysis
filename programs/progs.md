@@ -56,7 +56,7 @@ back to [main kmer_workshop page](https://github.com/NBISweden/workshop-kmer-ana
 # C) Build from source 
 
 * [merqury](https://github.com/marbl/merqury)
-* [merfin](https://github.com/arangrhie/merfin)
+* [meryl](https://github.com/marbl/meryl)
 * [FastK](https://github.com/thegenemyers/FASTK)
 * [MERQURY.FK](https://github.com/thegenemyers/MERQURY.FK)
 * [GENESCOPE.FK](https://github.com/thegenemyers/GENESCOPE.FK)
