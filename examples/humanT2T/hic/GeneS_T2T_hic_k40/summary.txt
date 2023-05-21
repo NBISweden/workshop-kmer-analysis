@@ -1,0 +1,13 @@
+GenomeScope version 2.0
+input file = 
+output directory = GeneS_T2T_hic_k40
+p = 1
+k = 40
+
+property                      min               max               
+Homozygous (a)                100%              100%              
+Genome Haploid Length         NA bp             3,164,797,748 bp  
+Genome Repeat Length          814,026,590 bp    827,566,284 bp    
+Genome Unique Length          2,324,881,755 bp  2,363,551,484 bp  
+Model Fit                     89.3553%          99.476%           
+Read Error Rate               0.835978%         0.835978%         
