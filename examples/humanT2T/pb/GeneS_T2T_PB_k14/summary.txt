@@ -1,0 +1,13 @@
+GenomeScope version 2.0
+input file = 
+output directory = GeneS_T2T_PB_k14
+p = 1
+k = 14
+
+property                      min               max               
+Homozygous (a)                100%              100%              
+Genome Haploid Length         NA bp             220,910,248 bp    
+Genome Repeat Length          133,323,184 bp    312,871,289 bp    
+Genome Unique Length          24,199,950 bp     56,790,344 bp     
+Model Fit                     83.5568%          77.2201%          
+Read Error Rate               0.000843612%      0.000843612%      
