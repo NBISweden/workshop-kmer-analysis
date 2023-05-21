@@ -80,8 +80,5 @@ done
 
 Results:
 
-<img src="../examples/humanT2T/pb/GeneS_T2T_PB_k14/linear_plot.png" alt="GeneScope PacBio K14" width="200"/>
-<img src="../examples/humanT2T/pb/GeneS_T2T_PB_k21/linear_plot.png" alt="GeneScope PacBio K21" width="200"/>
-<img src="../examples/humanT2T/pb/GeneS_T2T_PB_k31/linear_plot.png" alt="GeneScope PacBio K31" width="200"/>
-<img src="../examples/humanT2T/pb/GeneS_T2T_PB_k40/linear_plot.png" alt="GeneScope PacBio K40" width="200"/>
-<img src="../examples/humanT2T/pb/GeneS_T2T_PB_k50/linear_plot.png" alt="GeneScope PacBio K50" width="200"/>
+<img src="../examples/humanT2T/pb/GeneS_T2T_PB_k14/linear_plot.png" alt="GeneScope PacBio K14" width="200"/> 
+<img src="../examples/humanT2T/pb/GeneS_T2T_PB_k21/linear_plot.png" alt="GeneScope PacBio K21" width="200"/><img src="../examples/humanT2T/pb/GeneS_T2T_PB_k31/linear_plot.png" alt="GeneScope PacBio K31" width="200"/><img src="../xamples/humanT2T/pb/GeneS_T2T_PB_k40/linear_plot.png" alt="GeneScope PacBio K40" width="200"/><img src="../examples/humanT2T/pb/GeneS_T2T_PB_k50/linear_plot.png" alt="GeneScope PacBio K50" width="200"/>
