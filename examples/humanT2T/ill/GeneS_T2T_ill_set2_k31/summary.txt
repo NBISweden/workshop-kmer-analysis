@@ -1,0 +1,13 @@
+GenomeScope version 2.0
+input file = 
+output directory = GeneS_T2T_ill_set2_k31
+p = 1
+k = 31
+
+property                      min               max               
+Homozygous (a)                100%              100%              
+Genome Haploid Length         NA bp             3,141,602,705 bp  
+Genome Repeat Length          759,825,802 bp    760,707,575 bp    
+Genome Unique Length          2,379,956,111 bp  2,382,718,035 bp  
+Model Fit                     90.6415%          97.6199%          
+Read Error Rate               0.67195%          0.67195%          

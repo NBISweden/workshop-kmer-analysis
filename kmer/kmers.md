@@ -179,8 +179,8 @@ done
 
 Results:
 
-<img src="../examples/humanT2T/pb/GeneS_T2T_10x_k21/linear_plot.png" alt="GeneScope 10x K21" width="300"/> <img src="../examples/humanT2T/pb/GeneS_T2T_10x_k31/linear_plot.png" alt="GeneScope 10x K31" width="300"/> 
-<img src="../examples/humanT2T/pb/GeneS_T2T_10x_k40/linear_plot.png" alt="GeneScope 10x K40" width="300"/>
+<img src="../examples/humanT2T/10x/GeneS_T2T_10x_k21/linear_plot.png" alt="GeneScope 10x K21" width="300"/> <img src="../examples/humanT2T/10x/GeneS_T2T_10x_k31/linear_plot.png" alt="GeneScope 10x K31" width="300"/> 
+<img src="../examples/humanT2T/10x/GeneS_T2T_10x_k40/linear_plot.png" alt="GeneScope 10x K40" width="300"/>
 
 
 |K|property|min|max|
@@ -261,8 +261,8 @@ done
 
 Results:
 
-<img src="../examples/humanT2T/pb/GeneS_T2T_hic_k21/linear_plot.png" alt="GeneScope hic K21" width="300"/> <img src="../examples/humanT2T/pb/GeneS_T2T_hic_k31/linear_plot.png" alt="GeneScope hic K31" width="300"/> 
-<img src="../examples/humanT2T/pb/GeneS_T2T_hic_k40/linear_plot.png" alt="GeneScope hic K40" width="300"/>
+<img src="../examples/humanT2T/hic/GeneS_T2T_hic_k21/linear_plot.png" alt="GeneScope hic K21" width="300"/> <img src="../examples/humanT2T/hic/GeneS_T2T_hic_k31/linear_plot.png" alt="GeneScope hic K31" width="300"/> 
+<img src="../examples/humanT2T/hic/GeneS_T2T_hic_k40/linear_plot.png" alt="GeneScope hic K40" width="300"/>
 
 
 |K|property|min|max|
@@ -290,7 +290,7 @@ Results:
 ||Read Error Rate            |   0.835978%        | 0.835978%        | 
 
 
-**WARNING** HiC data (OMNIC or Arima) is not usable for any kmer-based analysis. 
+**WARNING HiC data (OMNIC or Arima) is not usable for any kmer-based analysis. These data sets usually have high PCR dupliction biases, chimeric reads, and usually the genome is not fully covered (gaps)**
 
 ## Data set T2T Illumina 
 
@@ -366,8 +366,8 @@ done
 
 Results input read set1:
 
-<img src="../examples/humanT2T/pb/GeneS_T2T_ill_set1_k21/linear_plot.png" alt="GeneScope ill set1 K21" width="300"/> <img src="../examples/humanT2T/pb/GeneS_T2T_ill_set1_k31/linear_plot.png" alt="GeneScope ill set1 K31" width="300"/>
-<img src="../examples/humanT2T/pb/GeneS_T2T_ill_set1_k40/linear_plot.png" alt="GeneScope ill set1 K40" width="300"/>
+<img src="../examples/humanT2T/ill/GeneS_T2T_ill_set1_k21/linear_plot.png" alt="GeneScope ill set1 K21" width="300"/> <img src="../examples/humanT2T/ill/GeneS_T2T_ill_set1_k31/linear_plot.png" alt="GeneScope ill set1 K31" width="300"/>
+<img src="../examples/humanT2T/ill/GeneS_T2T_ill_set1_k40/linear_plot.png" alt="GeneScope ill set1 K40" width="300"/>
 
 
 |K|property|min|max|
@@ -398,8 +398,8 @@ Results input read set1:
 
 Results input read set2:
 
-<img src="../examples/humanT2T/pb/GeneS_T2T_ill_set2_k21/linear_plot.png" alt="GeneScope ill set2 K21" width="300"/> <img src="../examples/humanT2T/pb/GeneS_T2T_ill_set2_k31/linear_plot.png" alt="GeneScope ill set2 K31" width="300"/>
-<img src="../examples/humanT2T/pb/GeneS_T2T_ill_set2_k40/linear_plot.png" alt="GeneScope ill set2 K40" width="300"/>
+<img src="../examples/humanT2T/ill/GeneS_T2T_ill_set2_k21/linear_plot.png" alt="GeneScope ill set2 K21" width="300"/> <img src="../examples/humanT2T/ill/GeneS_T2T_ill_set2_k31/linear_plot.png" alt="GeneScope ill set2 K31" width="300"/>
+<img src="../examples/humanT2T/ill/GeneS_T2T_ill_set2_k40/linear_plot.png" alt="GeneScope ill set2 K40" width="300"/>
 
 
 |K|property|min|max|
