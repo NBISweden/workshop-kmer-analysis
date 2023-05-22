@@ -31,7 +31,7 @@ as well as different default arguments. In order to derive useful estimates for 
 
 ## potato (tetraploid)
 
-[potato.md](potato.md)
+[potato.md](kmers_potato.md)
 
 ## simulated PacBio HiFi reads (polyploid)
 
