@@ -1,7 +1,7 @@
 
 # Sequencing data 
 
-* The human https://github.com/marbl/CHM13/tree/master#telomere-to-telomere-consortium-chm13-projectT2T project: 
+* The human [Telomer-to-telomer project](https://github.com/marbl/CHM13/tree/master#telomere-to-telomere-consortium-chm13-projectT2T): 
 
     * homozygous genome (haploid) - BUT due to a female sample the Y-Chromosome was seqeunced from another sample!
     * a complete overview of all available sequencing data can be found [here](https://github.com/marbl/CHM13/blob/master/Sequencing_data.md#sequencing-data)
@@ -20,6 +20,12 @@
             * [SRR3189741](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR3189741&display=metadata) 
             * [SRR3189742](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR3189742&display=metadata)
             * [SRR3189743](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR3189743&display=metadata)
+ 
+ * autotetraploid potato  [Altus cultivar](https://www.biorxiv.org/content/10.1101/2022.05.10.491293v1)
+    1. PacBio HiFi
+        * [SRR16811226](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR16811226&display=metadata)
+        * [SRR16811227](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR16811227&display=metadata)
+        * [SRR16811228](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR16811228&display=metadata)
  
  * simulated PacBio HiFi reads based on the T2T PacBio sequencing data 
 
@@ -68,6 +74,6 @@ Short HowTo (only works on Mac!)
 # Genome assemblies 
 
 * human T2T assembly ([XYv2.0](https://github.com/marbl/CHM13/blob/master/Previous_assembly_release_HG002.md))
-* ?
+* potato assembly ([C88](http://solomics.agis.org.cn/potato/ftp/tetraploid))
 
 back to [main kmer_workshop page](https://github.com/NBISweden/workshop-kmer-analysis)

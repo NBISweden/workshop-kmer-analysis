@@ -86,7 +86,7 @@ You should also have a look into the summary.txt file and check e.g. the Model F
 
 2. run PloidyPlot (smudgeplot)
 
-* PloidyPlot failes 
+* PloidyPlot fails 
 
 <img src="../examples/potato/pb/PloidyP_potato_pb_k21.fi.pdf" alt="PloidyPlot Potato PacBio K21" width="600"/>
 
