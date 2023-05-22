@@ -1,0 +1,16 @@
+GenomeScope version 2.0
+input file = 
+output directory = GeneS_PBsim_k21
+p = 3
+k = 21
+
+property                      min               max               
+Homozygous (aaa)              97.3334%          97.4008%          
+Heterozygous (not aaa)        2.59924%          2.66657%          
+aab                           2.59924%          2.64689%          
+abc                           0%                0.0196773%        
+Genome Haploid Length         NA bp             51,686,402 bp     
+Genome Repeat Length          17,855,237 bp     17,896,327 bp     
+Genome Unique Length          33,771,829 bp     33,849,548 bp     
+Model Fit                     83.4484%          96.2125%          
+Read Error Rate               0.133858%         0.133858%         
