@@ -15,8 +15,7 @@
     |Hap1| 12251  |	3.03    | 585 |112 |C:83.9%[S:80.9%,D:3.0%],F:3.6%,M:12.5%,n:13780|
     |Hap2| 12072  |	2.97    | 483 |108 |C:81.7%[S:79.3%,D:2.4%],F:4.0%,M:14.3%,n:13780|
 
-    [!mHomSap_UltraLowInputPacBio.pdf](difficult/mHomSap_UltraLowInputPacBio.pdf)
-    <img src="difficult/mHomSap_UltraLowInputPacBio.pdf" alt="HiFiasm K51 mHomSap ULpb" width="600"/>
+    [mHomSap_UltraLowInputPacBio.pdf](difficult/mHomSap_UltraLowInputPacBio.pdf)
 
 3. Planarian samples
 
