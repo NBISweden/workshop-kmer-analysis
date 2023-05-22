@@ -13,7 +13,7 @@
     nam=FASTK_PB
     acc="-A proj2022-5-333"
     # reads SRR1681122[6-8].fasta are linked to current working dir 
-    for k in 21 31 40
+    for k in 21 31
     do 
     mkdir -p potato_pb_k${k}
     pushd potato_pb_k${k}
