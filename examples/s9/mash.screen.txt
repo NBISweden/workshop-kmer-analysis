@@ -1,0 +1,31 @@
+0.985254	732/1000	2	0	GCF_001636625.1_ASM163662v1_genomic.fna.gz	[1235 seqs] NZ_LGRQ01001151.1 Luteibacter rhizovicinus strain L214 ID_1402696, whole genome shotgun sequence [...]
+0.965075	474/1000	2	0	GCF_001935975.1_ASM193597v1_genomic.fna.gz	[95 seqs] NZ_MSRG01000014.1 Caballeronia sordidicola strain PAMC 26592 contig-0, whole genome shotgun sequence [...]
+0.963996	463/1000	10	0	ref|NZ_CP019132.1|	Xuhuaishuia manganoxidans strain DY6-4 plasmid sequence
+0.953635	369/1000	2	0	ref|NZ_CP011111.1|	Pseudomonas chlororaphis strain PCL1606 plasmid, complete sequence
+0.952388	359/1000	25	0	ref|NZ_CP013748.1|	Arthrobacter sulfonivorans strain Ar51 plasmid, complete sequence
+0.949659	338/1000	32	0	ref|NZ_CP006375.1|	Aureimonas sp. AU20 plasmid pAU20rrn, complete sequence
+0.935939	249/1000	2	0	ref|NZ_CP014312.1|	Burkholderia sp. PAMC 26561 plasmid unnamed5, complete sequence
+0.929212	214/1000	3	0	GCF_001424345.1_Leaf1773_genomic.fna.gz	[26 seqs] NZ_LMPF01000001.1 Burkholderia sp. Leaf177 contig_1, whole genome shotgun sequence [...]
+0.92688	203/1000	2	0	ref|NC_021742.1|	Serratia liquefaciens ATCC 27592 plasmid, complete sequence
+0.925107	195/1000	1	0	GCF_001648775.1_ASM164877v1_genomic.fna.gz	[64 seqs] NZ_LVEJ01000001.1 Pseudomonas fluorescens strain HKI0770 contig1, whole genome shotgun sequence [...]
+0.924881	194/1000	3	0	ref|NC_010879.1|	Burkholderia glumae strain BGR1 plasmid pBGF2, complete sequence
+0.922791	185/1000	1	0	GCF_001068965.1_ASM106896v1_genomic.fna.gz	[359 seqs] NZ_JVVX01000328.1 Stenotrophomonas maltophilia strain 1275_SMAL 1008_7849_105747, whole genome shotgun sequence [...]
+0.921588	180/1000	2	0	GCF_000739735.1_ASM73973v1_genomic.fna.gz	[50 seqs] NZ_BBJF01000050.1 Burkholderia ginsengisoli NBRC 100965 DNA, contig: BGI01S_CON90878, whole genome shotgun sequence [...]
+0.920602	176/1000	1	0	GCF_001544455.2_Burkholderia_sordidicola_LMG_22029_genomic.fna.gz	[72 seqs] NZ_FCOC02000001.1 Caballeronia sordidicola isolate LMG 22029, whole genome shotgun sequence [...]
+0.920602	176/1000	2	0	GCF_001190015.1_ASM119001v1_genomic.fna.gz	[643 seqs] NZ_LGTG01000634.1 Candidatus Burkholderia crenata strain UZHbot9 map unlocalized plasmid pBCRE01 pBCRE01_ctg1, whole genome shotgun sequence [...]
+0.916976	162/1000	2	0	ref|NZ_CP014310.1|	Burkholderia sp. PAMC 26561 plasmid unnamed3, complete sequence
+0.914767	154/1000	2	0	GCF_000383095.1_4088801_genomic.fna.gz	[25 seqs] NZ_AORL01000001.1 Sphingomonas sp. PR090111-T3T-6A Sphingomonas_PR09011.fna_1, whole genome shotgun sequence [...]
+0.91124	142/1000	1	1.45905e-307	GCF_000282635.1_Variovorax.strCF313_v1.0_genomic.fna.gz	[173 seqs] NZ_AKIW01000001.1 Variovorax sp. CF313 PMI12_contig_7.7, whole genome shotgun sequence [...]
+0.909049	135/1000	2	2.5686e-289	GCF_900142345.1_IMG-taxon_2698536699_annotated_assembly_genomic.fna.gz	NZ_LT670845.1 Bradyrhizobium lablabi strain MT34 genome assembly, chromosome: I
+0.908727	134/1000	2	1.00362e-286	GCF_000333335.1_ASM33333v1_genomic.fna.gz	[886 seqs] NZ_BACX01000886.1 Sphingomonas-like bacterium B12 DNA, contig: IB012.C887, whole genome shotgun sequence [...]
+0.908403	133/1000	1	3.88784e-284	GCF_000196615.1_ASM19661v1_genomic.fna.gz	[3 seqs] NC_014306.1 Erwinia billingiae strain Eb661 complete chromosome [...]
+0.907083	129/1000	1	8.02589e-274	GCF_000190375.1_ASM19037v1_genomic.fna.gz	[164 seqs] NZ_AEWG01000164.1 Rubrivivax benzoatilyticus JA2 = ATCC BAA-35 strain JA2 contig_164, whole genome shotgun sequence [...]
+0.906747	128/1000	1	2.97593e-271	GCF_001429705.1_Soil809_genomic.fna.gz	[2 seqs] NZ_LMSV01000001.1 Yonghaparkia sp. Soil809 contig_1, whole genome shotgun sequence [...]
+0.906409	127/1000	1	1.09364e-268	GCF_001618955.1_ASM161895v1_genomic.fna.gz	[56 seqs] NZ_LVYV01000001.1 Tardiphaga sp. Vaf07 contig_1, whole genome shotgun sequence [...]
+0.905028	123/1000	2	1.82214e-258	GCF_000745015.1_ASM74501v1_genomic.fna.gz	[2 seqs] NZ_JQNA01000001.1 Burkholderia sp. 9120 FA94DRAFT_unitig_1_quiver.1_C, whole genome shotgun sequence [...]
+0.905028	123/1000	30	1.82214e-258	ref|NZ_CP012645.1|	Rufibacter tibetensis strain 1351 plasmid 2, complete sequence
+0.904677	122/1000	2	6.39808e-256	GCF_000764535.1_ASM76453v1_genomic.fna.gz	[3 seqs] NZ_CP009571.1 Sphingomonas taxi strain ATCC 55669, complete genome [...]
+0.902876	117/1000	1	2.9663e-243	GCF_001295845.1_ASM129584v1_genomic.fna.gz	[228 seqs] NZ_LJIC01000001.1 Rhodopseudomonas sp. AAP120 AAP120_Contigs_1, whole genome shotgun sequence [...]
+0.901	112/1000	1	1.08061e-230	ref|NC_015057.1|	Granulicella tundricola MP5ACTX9 plasmid pACIX901, complete sequence
+0.900615	111/1000	1	3.41226e-228	GCF_000178975.2_ASM17897v2_genomic.fna.gz	[6 seqs] NC_015057.1 Granulicella tundricola MP5ACTX9 plasmid pACIX901, complete sequence [...]
+0.900227	110/1000	1	1.06668e-225	GCF_001864845.1_ASM186484v1_genomic.fna.gz	[40 seqs] NZ_MJGJ01000001.1 Curtobacterium sp. MCBA15_003 MCBA15_003_contig_1, whole genome shotgun sequence [...]
