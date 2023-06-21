@@ -15,10 +15,10 @@ Introduction into kmer analysis
 
     3.1. [Kmer frequency plots from sequencing data](kmer/kmers.md)
 
-    3.2. [Evaluate genome assemblies](asm/asm.md) - postponed for kmer workshop 2.0
+    3.2. [Evaluate genome assemblies](asm/asm.md)
 
     3.3. [Genome size estimation](gsize/gsize.md)
 
-    4.4. [Difficult Examples](examples/examples.md) - postponed for kmer workshop 2.0
+    4.4. [Difficult Examples](examples/examples.md)
 
 4. [Further reading](literature/lit.md) 

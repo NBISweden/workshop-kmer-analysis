@@ -1,0 +1,2 @@
+Assembly	Region	Found	Total	% Covered
+asm	all	41845338	41940818	99.77

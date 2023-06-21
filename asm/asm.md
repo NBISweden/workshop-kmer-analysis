@@ -1,9 +1,5 @@
 # Kmer-based quality assessment of genome assemblies 
 
-## Merqury and Merqury.FK
+## An example for a contamination bias
 
-1. kmer-multiplicty plots 
-
-2. understanding QV-scores from 
-
-3. completeness 
+[googledoc](https://docs.google.com/presentation/d/1vGap_nz2iQ9WM9MiLHSsqrgOUMUdcdoxldL_bekilwA/edit?usp=sharing)
